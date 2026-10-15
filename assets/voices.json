@@ -1,0 +1,28 @@
+{
+  "_comment": "edge-tts free neural voices. Assign per speaker in speakers.json. Multilingual variants also handle English well.",
+  "male": [
+    "en-US-AndrewNeural",
+    "en-US-BrianNeural",
+    "en-US-ChristopherNeural",
+    "en-US-EricNeural",
+    "en-US-GuyNeural",
+    "en-US-RogerNeural",
+    "en-US-SteffanNeural"
+  ],
+  "female": [
+    "en-US-AvaNeural",
+    "en-US-EmmaNeural",
+    "en-US-JennyNeural",
+    "en-US-AriaNeural",
+    "en-US-MichelleNeural",
+    "en-US-AnaNeural"
+  ],
+  "default_assignment": [
+    "en-US-AndrewNeural",
+    "en-US-AvaNeural",
+    "en-US-BrianNeural",
+    "en-US-EmmaNeural",
+    "en-US-EricNeural",
+    "en-US-JennyNeural"
+  ]
+}

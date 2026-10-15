@@ -1,0 +1,5 @@
+yt-dlp>=2024.0.0
+faster-whisper>=1.0.0
+edge-tts>=6.1.0
+pyannote.audio>=3.3.0
+requests>=2.31.0

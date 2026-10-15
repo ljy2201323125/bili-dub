@@ -1,0 +1,26 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+
+# ---- bootstrapped ffmpeg (micromamba) ----
+bin/ffenv/
+bin/mm/
+bin/mmroot/
+bin/*.log
+# keep bin/ itself, ignore anything else that lands there besides the above
+bin/*
+!bin/.gitkeep
+
+# ---- per-video working data & finished renders ----
+work/
+output/
+
+# ---- secrets (never commit) ----
+assets/hf_token
+*.cookies
+cookies.txt
+
+# ---- logs / OS junk ----
+*.log
+.DS_Store
